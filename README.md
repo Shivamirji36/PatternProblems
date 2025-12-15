@@ -25,5 +25,13 @@ Pattern problems are more than just printing stars:
 - 🔲 Square, Rectangle & Diamond Patterns  
 
 -----------------------------------------------------------------------------
- 
- 
+
+## Pattern 1
+```
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * *
+```
+
