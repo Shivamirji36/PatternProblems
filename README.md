@@ -26,7 +26,7 @@ Pattern problems are more than just printing stars:
 
 -----------------------------------------------------------------------------
 
-## Pattern 1
+## Pattern 1 - Square Star Pattern
 ```
 * * * * * 
 * * * * * 
@@ -35,3 +35,11 @@ Pattern problems are more than just printing stars:
 * * * * *
 ```
 
+## Pattern 2 - Right-Angled Triangle Star Pattern
+```
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+```
