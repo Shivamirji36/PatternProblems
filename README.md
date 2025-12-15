@@ -43,3 +43,84 @@ Pattern problems are more than just printing stars:
 * * * * 
 * * * * * 
 ```
+
+## Pattern 3 - Number Triangle Pattern
+```
+1 
+1 2 
+1 2 3 
+1 2 3 4 
+1 2 3 4 5 
+```
+
+## Pattern 4 - Repeated Number Triangle Pattern
+```
+1 
+2 2 
+3 3 3 
+4 4 4 4 
+5 5 5 5 5 
+```
+
+## Pattern 5 - Inverted Right-Angled Triangle Star Pattern
+```
+* * * * * 
+* * * * 
+* * * 
+* * 
+* 
+```
+
+## Pattern 6 - Inverted Number Triangle Pattern
+```
+1 2 3 4 5 
+1 2 3 4 
+1 2 3 
+1 2 
+1 
+```
+
+## Pattern 7 - Pyramid Star Pattern
+```
+    *    
+   ***   
+  *****  
+ ******* 
+*********
+```
+
+## Pattern 8 - Inverted Pyramid Star Pattern
+```
+ ********* 
+  *******  
+   *****   
+    ***    
+     *   
+```
+
+## Pattern 9 - Diamond Star Pattern
+```
+     *     
+    ***    
+   *****   
+  *******  
+ ********* 
+ ********* 
+  *******  
+   *****   
+    ***    
+     *    
+```
+
+## Pattern 10 - Half Diamond Star Pattern
+```
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+* * * * 
+* * * 
+* * 
+*  
+```
