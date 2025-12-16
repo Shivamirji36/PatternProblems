@@ -7,7 +7,7 @@ public class Patterns {
         int number = input.nextInt();
 
         PatternClass myObj = new PatternClass();
-        myObj.printPattern17(number);
+        myObj.printPattern20(number);
     }
 }
 
@@ -286,6 +286,89 @@ class PatternClass {
                 System.out.print(" ");
             }
             System.out.println("");
+        }
+    }
+
+    // Pattern 18 - Reverse Alphabet Triangle Pattern
+    public void printPattern18(int n) {
+        // This is outer loop
+        for (int i = 0; i < n; i++) {
+            // This is inner loop
+            for (char ch = (char) ('E' - i); ch <= 'E'; ch++) {
+                System.out.print(ch + " ");
+            }
+            System.out.println("");
+        }
+    }
+
+    // Pattern 19 - Hollow Butterfly Star Pattern
+    public void printPattern19(int n) {
+        // This is outer loop
+        for (int i = 0; i <= n; i++) {
+            // Inner Loop - Stars
+            for (int j = 0; j <= n - i; j++) {
+                System.out.print("*");
+            }
+
+            // Inner Loop - Spaces
+            for (int j = 0; j <= 2 * i; j++) {
+                System.out.print(" ");
+            }
+
+            // Inner Loop - Stars
+            for (int j = 0; j <= n - i; j++) {
+                System.out.print("*");
+            }
+            System.out.println("");
+        }
+        for (int i = 0; i <= n; i++) {
+            // Inner Loop - Stars
+            for (int j = 0; j <= i; j++) {
+                System.out.print("*");
+            }
+
+            // Inner Loop - Spaces
+            for (int j = 0; j <= 2 * n - (2 * i); j++) {
+                System.out.print(" ");
+            }
+
+            // Inner Loop - Stars
+            for (int j = 0; j <= i; j++) {
+                System.out.print("*");
+            }
+            System.out.println("");
+        }
+    }
+
+    // Pattern 20 - Hourglass Star Pattern
+    public void printPattern20(int n) {
+        int spaces = 2 * n - 2;
+        // This is outer loop
+        for (int i = 1; i <= 2 * n - 1; i++) {
+            int stars = i;
+            if (i > n) {
+                stars = 2 * n - i;
+            }
+            // Inner Loop - Stars
+            for (int j = 1; j <= stars; j++) {
+                System.out.print("*");
+            }
+
+            // Inner Loop - Spaces
+            for (int j = 1; j <= spaces; j++) {
+                System.out.print(" ");
+            }
+
+            // Inner Loop - Stars
+            for (int j = 1; j <= stars; j++) {
+                System.out.print("*");
+            }
+            System.out.println("");
+            if (i < n) {
+                spaces -= 2;
+            } else {
+                spaces += 2;
+            }
         }
     }
 
