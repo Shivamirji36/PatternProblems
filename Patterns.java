@@ -7,7 +7,7 @@ public class Patterns {
         int number = input.nextInt();
 
         PatternClass myObj = new PatternClass();
-        myObj.printPattern14(number);
+        myObj.printPattern17(number);
     }
 }
 
@@ -237,6 +237,53 @@ class PatternClass {
             // This is inner loop
             for (char ch = 'A'; ch <= 'A' + i; ch++) {
                 System.out.print(ch + " ");
+            }
+            System.out.println("");
+        }
+    }
+
+    // Pattern 15 - Inverted Alphabet Triangle Pattern
+    public void printPattern15(int n) {
+        // This is outer loop
+        for (int i = 0; i < n; i++) {
+            // This is inner loop
+            for (char ch = 'A'; ch <= 'A' + (n - i - 1); ch++) {
+                System.out.print(ch + " ");
+            }
+            System.out.println("");
+        }
+    }
+
+    // Pattern 16 - Alphabet Repetition Triangle Pattern
+    public void printPattern16(int n) {
+        // This is outer loop
+        for (int i = 0; i < n; i++) {
+            char ch = (char) ('A' + i);
+            // This is inner loop
+            for (int j = 0; j <= i; j++) {
+                System.out.print(ch + " ");
+            }
+            System.out.println("");
+        }
+    }
+
+    // Pattern 17 - Alphabet Pyramid Pattern
+    public void printPattern17(int n) {
+        // This is outer loop
+        for (int i = 1; i < n; i++) {
+            // Inner loop - Spaces
+            for (int j = 0; j <= n - i; j++) {
+                System.out.print(" ");
+            }
+
+            // Inner Loop - Alphabets
+            for (char ch = 'A'; ch < 'A' + (2 * i - 1); ch++) {
+                System.out.print(ch);
+            }
+
+            // Inner loop - Spaces
+            for (int j = 0; j <= n - i; j++) {
+                System.out.print(" ");
             }
             System.out.println("");
         }
