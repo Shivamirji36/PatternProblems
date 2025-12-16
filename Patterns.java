@@ -7,7 +7,7 @@ public class Patterns {
         int number = input.nextInt();
 
         PatternClass myObj = new PatternClass();
-        myObj.printPattern10(number);
+        myObj.printPattern14(number);
     }
 }
 
@@ -174,4 +174,72 @@ class PatternClass {
             System.out.println("");
         }
     }
+
+    // Pattern 11 - Binary Alternating Triangle Pattern
+    public void printPattern11(int n) {
+        int start = 1;
+        // This is outer loop
+        for (int i = 0; i < n; i++) {
+            if (i % 2 == 0) {
+                start = 1;
+            } else {
+                start = 0;
+            }
+            // This is inner loop
+            for (int j = 0; j <= i; j++) {
+                System.out.print(start + " ");
+                start = 1 - start;
+            }
+            System.out.println("");
+        }
+    }
+
+    // Pattern 12 - Number Palindrome Pyramid Pattern
+    public void printPattern12(int n) {
+        int space = 2 * (n - 1);
+        // This is outer loop
+        for (int i = 1; i <= n; i++) {
+            // Inner loop - Numbers
+            for (int j = 1; j <= i; j++) {
+                System.out.print(j);
+            }
+            // Inner loop - Spaces
+            for (int j = 1; j <= space; j++) {
+                System.out.print(" ");
+            }
+            // Inner loop - Numbers
+            for (int j = i; j >= 1; j--) {
+                System.out.print(j);
+            }
+            System.out.println("");
+            space -= 2;
+        }
+    }
+
+    // Pattern 13 - Sequential Number Triangle Pattern
+    public void printPattern13(int n) {
+        int start = 1;
+        // This is outer loop
+        for (int i = 1; i <= n; i++) {
+            // This is inner loop
+            for (int j = 1; j <= i; j++) {
+                System.out.print(start + " ");
+                start += 1;
+            }
+            System.out.println("");
+        }
+    }
+
+    // Pattern 14 - Alphabet Triangle Pattern
+    public void printPattern14(int n) {
+        // This is outer loop
+        for (int i = 0; i < n; i++) {
+            // This is inner loop
+            for (char ch = 'A'; ch <= 'A' + i; ch++) {
+                System.out.print(ch + " ");
+            }
+            System.out.println("");
+        }
+    }
+
 }
