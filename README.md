@@ -186,3 +186,41 @@ E E E E E
    ABCDE   
   ABCDEFG 
   ```
+
+## Pattern 18 - Reverse Alphabet Triangle Pattern
+```
+E 
+D E 
+C D E 
+B C D E 
+A B C D E
+  ```
+
+## Pattern 19 - Hollow Butterfly Star Pattern
+```
+****** ******
+*****   *****
+****     ****
+***       ***
+**         **
+*           *
+*           *
+**         **
+***       ***
+****     ****
+*****   *****
+****** ******
+  ```
+
+  ## Pattern 20 - Hourglass Star Pattern
+```
+*        *
+**      **
+***    ***
+****  ****
+**********
+****  ****
+***    ***
+**      **
+*        *
+  ```
