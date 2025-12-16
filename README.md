@@ -124,3 +124,35 @@ Pattern problems are more than just printing stars:
 * * 
 *  
 ```
+
+## Pattern 11 - Binary Alternating Triangle Pattern
+1 
+0 1 
+1 0 1 
+0 1 0 1 
+1 0 1 0 1 
+```
+
+## Pattern 12 - Number Palindrome Pyramid Pattern
+1        1
+12      21
+123    321
+1234  4321
+1234554321
+```
+
+## Pattern 13 - Sequential Number Triangle Pattern
+1 
+2 3 
+4 5 6 
+7 8 9 10 
+11 12 13 14 15 
+```
+
+## Pattern 14 - Alphabet Triangle Pattern
+A 
+A B 
+A B C 
+A B C D 
+A B C D E  
+```
