@@ -160,3 +160,28 @@ A B C
 A B C D 
 A B C D E  
 ```
+
+## Pattern 15 - Inverted Alphabet Triangle Pattern
+```
+A B C D E 
+A B C D 
+A B C 
+A B 
+A  
+```
+
+## Pattern 16 - Alphabet Repetition Triangle Pattern
+```
+A 
+B B 
+C C C 
+D D D D 
+E E E E E
+```
+
+## Pattern 17 - Alphabet Pyramid Pattern
+     A     
+    ABC    
+   ABCDE   
+  ABCDEFG 
+  ```
