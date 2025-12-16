@@ -180,6 +180,7 @@ E E E E E
 ```
 
 ## Pattern 17 - Alphabet Pyramid Pattern
+```
      A     
     ABC    
    ABCDE   
